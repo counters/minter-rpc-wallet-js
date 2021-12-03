@@ -1,0 +1,16 @@
+app:
+#  queue: custom_queue_name
+wallet:
+  address: Mx0101010101010101010101010101010101010101
+  mnemonic: secret secret secret secret secret secret secret secret secret secret secret secret
+rabbitmq:
+  host: 127.0.0.1
+  port: 5672
+#  vhost: /
+#  user: user1
+#  password: pass1
+
+minter_api:
+  baseURL: https://node-api.testnet.minter.network/v2/ # http://127.0.0.1:8843/v2/
+  chainId: 2
+  apiType: node

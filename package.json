@@ -1,0 +1,21 @@
+{
+  "name": "minter-rpc-wallet-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "minter-js-sdk": "^0.38.3",
+    "js-yaml": "^4.1.0",
+    "minterjs-wallet": "^6.1.0",
+    "amqplib": "^0.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.17.19"
+  }
+}

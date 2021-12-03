@@ -1,0 +1,1 @@
+# minter-rpc-wallet-js

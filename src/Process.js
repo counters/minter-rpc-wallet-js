@@ -26,9 +26,9 @@ function Process(ymlParseMinterApi, mnemonic) {
         let postTxOptions = {}
         if (json['postTxOptions'] != null) {
             postTxOptions = json['postTxOptions']
+        } else {
+            // postTxOptions['seedPhrase'] = seedPhrase
         }
-
-        postTxOptions['seedPhrase'] = seedPhrase
 
         minter.postTx(txParams, {seedPhrase: seedPhrase})
             .then((txHash) => {
